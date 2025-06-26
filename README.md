@@ -1,2 +1,3 @@
-# unity-students
-Repositório com um projeto simples em unity para os alunos utilizarem na atividade avaliativa
+# Unity Git Test
+
+Projeto simples para uso em aulas de versionamento com Unity e Git.
