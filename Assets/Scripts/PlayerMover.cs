@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
 {
+    public float moveDistance;
     public float moveSpeed = 5f;
 
     void Update()
