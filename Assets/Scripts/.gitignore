@@ -1,0 +1,96 @@
+# Este arquivo .gitignore deve ser colocado na raiz do diretório do seu projeto Unity
+#
+# Obtenha as últimas novidades em https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[ Ll ] biblioteca /
+/[ Tt ] emp /
+/[ Oo ] bj /
+/[ Bb ] edifício /
+/[ Bb ] edifícios /
+/[ Ll ] ogs /
+/[ Uu ] ser [ Ss ] configurações /
+
+# As capturas de memória podem ficar excessivas em tamanho.
+# Eles também podem conter dados extremamente sensíveis
+/[ Mm ] emoryCaptures /
+
+# Os metadados do ativo só devem ser ignorados quando o ativo correspondente também for ignorado
+! /[ Aa ] conjuntos / ** / * .meta
+
+# As gravações podem ficar excessivas em tamanho
+/[ Rr ] gravações /
+
+
+# Descomente esta linha se desejar ignorar o plugin de ferramentas da loja de ativos
+# /[Aa]assets/AssetStoreTools*
+
+# Plugin Jetbrains Rider gerado automaticamente
+[ Aa ] conjuntos / Plugins / Editor / JetBrains *
+
+# Diretório de cache do Visual Studio
+.vs /
+
+# Diretório de cache do Gradle
+.gradle /
+
+# Arquivos de solução e projeto VS/MD/Consulo gerados automaticamente
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+* .usuário
+* .preferências do usuário
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+# Meta arquivos gerados pelo Unity3D
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+# Arquivo gerado pelo Unity3D em relatórios de falhas
+sysinfo.txt
+
+# Construções
+* .apk
+* .pacote de unidade
+* .aab
+* .aplicativo
+
+# Arquivo gerado pelo Crashlytics
+crashlytics-build.propriedades
+
+# Específico para macOS
+.DS_Store
+.DS_Store ?
+._ *
+.Spotlight-V100
+.Lixos
+ehthumbs.db
+Polegares.db
+relatório.xml
+Polegares.db.meta
+
+# JetBrains
+/ .ideia /
+.ideia / **
+
+# Informações de construção do Asset Hunter
+* .ahbuildinfo
+
+#FMOD​
+fmod.log
+fmod_editor.log
+/ Ativos / Plugins / FMOD / Cache / Editor / FMODStudioCache.asset
+/ Ativos / Plugins / FMOD / Cache / Editor / FMODStudioCache.asset.meta
+
+/ Ativos / Plugins / FMOD / Cache / Editor.meta
+ para participar desta conversa no GitHub . J
