@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float Velocidade = 20f;
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            transform.Translate(Vector3.forward * Velocidade * Time.deltaTime);
         }
     }
 }
