@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMover : MonoBehaviour
 {
     public float moveSpeed = 5f;
-
+    public float gravityScale = 2;
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
@@ -11,4 +11,4 @@ public class PlayerMover : MonoBehaviour
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         }
     }
-}
+} 
